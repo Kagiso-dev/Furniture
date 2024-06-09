@@ -3,36 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furniture Advertisement</title>
+    <title>Event Ticket Selling</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Furniture Advertisement</h1>
+        <h1>Event Ticket Selling</h1>
+        <input type="text" id="searchBar" placeholder="Search for events...">
     </header>
     
     <main>
-        <section id="furniture-list">
-            <h2>Available Furniture</h2>
-            <div id="furnitures">
-                <!-- Furniture items will be dynamically inserted here -->
-            </div>
+        <section id="event-list">
+            <!-- Event cards will be dynamically inserted here -->
         </section>
-
-        <section id="banking-info">
-            <h2>Banking Information</h2>
-            <p>Please send your payments to the following account:</p>
-            <p>Account Name: <strong>Furniture Store</strong></p>
-            <p>Bank Name: <strong>Bank of Furniture</strong></p>
-            <p>Account Number: <strong>123456789</strong></p>
-            <p>IFSC Code: <strong>FURN12345</strong></p>
-        </section>
+		
     </main>
 
+    <!-- Modal Structure -->
+    <div id="event-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-info">
+                <!-- Event info will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    
     <footer>
-        <p>&copy; 2024 Furniture Advertisement. All rights reserved.</p>
+		<section id="banking-info">
+            <p>Please send your payments to the following account:</p>
+            Account Name: <strong>Future Events</strong>
+            Bank Name: <strong>Absa</strong>
+            Account Number: <strong>123456789</strong>
+            Branch Code: <strong>2025</strong>
+        </section>
     </footer>
-
+    
     <script src="scripts.js"></script>
 </body>
 </html>
