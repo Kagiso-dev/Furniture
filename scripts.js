@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'Sofa Set',
             price: 'R1500.00',
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZasGNkhleWDhPwRx1QBSIR3OC1_Gf4avWg&s'
+            image: 'https://www.furnitureliquidation.co.za/wp-content/uploads/2023/01/VAD001-Gloria-Corner-Couch2.jpg'
         },
         {
             name: 'Dining Table',
@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.furnitureliquidation.co.za/wp-content/uploads/2023/12/A08-Office-Chair-Black-.jpg'
         },
         {
-            name: 'Bed Frame',
-            price: 'R0',
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB9kIyeva4x7Qn6HMDuSHzAv215QOlZD4Lw&s'
+            name: 'Queen Mattres',
+            price: 'R8000.00',
+            image: 'https://www.furnitureliquidation.co.za/wp-content/uploads/2023/05/Comfort-Pocket-Queen-Mattress_1.jpg'
         },
         {
             name: 'Bookshelf',
